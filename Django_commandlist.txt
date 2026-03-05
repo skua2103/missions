@@ -1,0 +1,15 @@
+#
+django-admin startproject <プロジェクト名>
+
+# 
+python manage.py runserver
+
+#
+python manage.py startapp <アプリ名>
+
+#
+python manage.py makemigrations <変更部分>
+python manage.py migrate
+
+#
+python manage.py createsuperuser
